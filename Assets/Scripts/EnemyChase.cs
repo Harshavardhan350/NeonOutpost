@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyChase : MonoBehaviour
 {
     public Transform player;
-    public float detectionRadius = 5f;
+    public float detectionRadius = 6f;
     public float stopChasingRadius = 10f;
     public float moveSpeed = 3f;
     private bool isChasing;
